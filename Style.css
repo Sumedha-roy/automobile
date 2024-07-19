@@ -1,0 +1,72 @@
+body{
+    position: fixed;
+    margin: 0px;
+}
+.body2{
+    background-image: url(car.jpg);
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li {
+    display: inline;
+    margin-right: 50px;
+}
+.navbar li a{
+    font-size: larger;
+}
+.navbar li a:hover{
+    color: rgb(218, 13, 71);
+    text-decoration: underline;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+}
+.start{
+    margin-top: 90px;
+    margin-left:20px;
+    width: 700px;
+    height:400px;
+    word-spacing: 0.1em;
+}
+.start h1{
+    font-size: 2.5rem;
+    font-family: monospace;
+    color: antiquewhite;
+}
+.start h2{
+    font-size: 1rem;
+    font-family:cursive;
+    color:coral;
+}
+.start button{
+    width: 120px;
+    height: 85x;
+    font-size: large;
+    border: 2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    font-family: cursive;
+    
+}
+.start button:hover{
+    width: 140px;
+    height: 95x;
+    font-size: larger;
+    border: 2px;
+    border-radius: 5px;
+    background-color: rgb(239, 94, 167);
+    color: black
+    box-shadow: wheat;
+
+}
